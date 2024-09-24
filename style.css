@@ -1,0 +1,19 @@
+
+.lampa {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    border: 1px solid white;
+    border-radius: 30%;
+}
+.fel{
+    background-color: yellow;
+}
+.jatekter{
+    display: grid;
+    grid-template-columns: repeat(3,max-content);
+    background-color: rgb(66, 51, 51);
+    justify-content: center;
+    gap: 10px;
+
+}
